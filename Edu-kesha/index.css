@@ -1,0 +1,542 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+  margin: 0;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 538;
+  margin-bottom: 28px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #0c2836;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Начало 1 блока */
+.navigation {
+  padding-top: 50px;
+  margin-bottom: 72px;
+}
+
+.navigation__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  grid-gap: 51px;
+}
+
+.navigation__list-item .navigation__list-item-link {
+  font-weight: 400;
+  color: #3F3A51;
+  text-decoration: none;
+  size: 18px;
+}
+
+.navigation__list-item .navigation__list-item-link:hover {
+  text-decoration: underline;
+}
+
+/* Конец 1 блока */
+
+/* Начало 2 блока */
+.service-online {
+  justify-content: center;
+  align-self: center;
+}
+.noname{
+  display: none;
+}
+.service-bg img {
+  width: 50%;
+}
+
+.video-lesson {
+  color: #8F99AC;
+}
+.neizv-2{
+  display: none;
+}
+
+.yrok {
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: #4047E2;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.button-demo {
+  width: 225px;
+  height: 50px;
+  border: 1px solid #4047E2;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #4047E2;
+}
+
+.button-yrok {
+  margin-top: 19px;
+}
+
+/* Конец 2 блока */
+
+/* Начало 3 блока */
+.video-yroki {
+  background-color: #dfe1ff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 80px;
+}
+
+.fomina-img {
+  float: right;
+}
+
+/* Конец 3 блока */
+
+/* Начало 4 блока */
+.hs-zan {
+  margin-top: 80px;
+  align-items: center;
+  display: flex;
+}
+
+/* Конец 4 блока */
+
+/* Начало 5 блока */
+.vozmojnosti {
+  margin-bottom: 67px;
+}
+
+.vozm-glav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.vozm__all {
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.card__blue {
+  padding: 55px 24px 24px;
+  gap: 30px;
+  display: block;
+  width: 285px;
+  height: 320px;
+  background-color: #DFE1FF;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.obvodka__card_orange {
+  display: block;
+  width: 285px;
+  height: 320px;
+  background-color: #FFE1AD;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 55px 24px 24px;
+}
+
+/* Конец 5 блока */
+
+/* Начало 6 блока */
+
+.work {
+  margin-bottom: 80px;
+}
+
+.work-header {
+  margin-top: 67px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+
+.work .work__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.work__logo img {
+  margin-bottom: 24px;
+}
+
+.work__logo h4 {
+  margin-bottom: 24px;
+}
+
+/* Конец 6 блока */
+
+/* Начало 7 блока */
+.distant {
+  background-color: #DFE1FF;
+  padding-top: 73px;
+  padding-bottom: 72px;
+}
+
+.distant__card {
+  background-color: #fff;
+  border-radius: 35px;
+  padding: 30px 50px 30px 30px;
+}
+
+.distant__card-logo {
+  display: flex;
+  gap: 17px;
+}
+
+.ivan__name {
+  margin-left: 16px;
+}
+
+.distant__card p {
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Конец 7 блока */
+
+/* Начало 8 блока */
+footer {
+  padding-top: 65px;
+  color: #8F99AC;
+}
+
+.footer__line {
+  height: 1px;
+  width: 100%;
+  background-color: #EAEAEA;
+  margin-bottom: 43px;
+}
+
+.footer-all {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+footer .footer__fond-logo {
+  height: 71px;
+}
+
+footer li {
+  color: #8F99AC;
+}
+
+footer img {
+  height: 53px;
+}
+
+.footer-kesha {
+  display: flex;
+  justify-content: center;
+}
+
+.just-right {
+  justify-content: right;
+  text-align: right;
+}
+
+.distance__text-button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: #4047E2;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Конец 8 блока */
+.work {
+  margin-bottom: 80px;
+}
+
+.work .work-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+
+.work .work-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.work .work__logo img {
+  margin-bottom: 24px;
+}
+
+.work .work__logo h4 {
+  margin-bottom: 24px;
+}
+
+.work .work__logo p {
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .service-bg img {
+    display: none;
+ 
+}
+.navigation__list-item-link {
+  display: none;
+}
+.service-online h1 {
+    font-size: 27px;
+    width: 296px;
+    height: 96px;
+}
+ .service-online p{
+  font-size: 16px;
+  width: 296px;
+  height: 42px;
+ }
+ .yrok{
+  margin-top: 26px;
+  width: 296px;
+  height: 50px;
+ }
+.button-demo{
+  margin-top: 8px;
+  width: 296px;
+  height: 50px;
+}
+.noname{
+  display: inline;
+}
+.video-yroki{
+  padding: 0px;
+  background-color: #fff;
+}
+.two-block p{
+width: 296px;
+height: 105;
+font-size: 16px;
+}
+.two-block h2{
+  width: 296px;
+  height: 96px;
+  font-size: 27px;
+}
+.fomina-img{
+  display: none;
+}
+.neizv-2{
+  display: inline;
+  width: 320px;
+  height: 129px;
+  margin-top: 30px;
+}
+}
+@media screen and (max-width: 576px) {
+  .last-zanyatiya {
+    padding: 20px 0;
+  }
+  .hs-zan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hs-zan img {
+    width: 100%;
+    padding: 0px;
+  }
+  .last-zanyatiya h2 {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 576px) {
+  .work .work__logo p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .work p {
+    margin-bottom: 50px;
+  }
+  .work .work-header {
+    margin-bottom: 25px;
+  }
+}
+footer {
+  padding-top: 65px;
+  color: #8f99ac;
+}
+@media screen and (max-width: 576px) {
+  footer {
+    padding-top: 60px;
+  }
+}
+footer .footer__line {
+  height: 1px;
+  width: 100%;
+  background-color: #eaeaea;
+}
+footer .footer__group {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+footer .footer__fond-logo {
+  height: 71px;
+}
+footer li {
+  color: #8f99ac;
+}
+footer img {
+  height: 53px;
+}
+footer .footer__element {
+  display: flex;
+}
+footer .just-right {
+  justify-content: right;
+  text-align: right;
+}
+@media screen and (max-width: 576px) {
+  footer .footer__element {
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+.distance__text h3{
+  width: 265px;
+  height: 96px;
+  font-size: 27px;
+}
+.distance__text{
+  margin-bottom: 40px;
+}
+.distance__text-button{
+  width: 100%;
+  
+}
+.distant__card p {
+  padding: 0px;
+    font-size: 16px;
+    width: 296px;
+    height: 144px;
+  }
+.distant__card-logo p{
+  width: 161px;
+  height: 48px;
+}
+.distant__card{
+border-radius: 20px;
+width: 100%;
+}
+
+.ivan-ivanov{
+  width: 65px;
+  height: 65px;
+}
+.distant__card-logo{
+  gap: 17px;
+}
+.math{
+  font-size: 15px;
+}
+}
+
+/* Скрываем Swiper на десктопе */
+@media (min-width: 768px) {
+.swiper-container {
+  display: none;
+  }
+}
+
+/* Скрываем карточки на мобильных устройствах */
+@media (max-width: 767px) {
+.vozm__all {
+display: none;
+  
+}
+.swiper-container {
+  position: relative;
+  width: 100%;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.swiper-pagination {
+  position: relative;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+}
+@media (min-width: 768px) {
+  .swiper-container {
+      display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .vozm__all {
+      display: none;
+  }
+}
+
+   
